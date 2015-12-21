@@ -77,28 +77,28 @@ if [ -e "/home/amnesia/Persistent/.shadowcoin/shadowcoin.conf" ]; then
 	rpcu=$(pwgen -ncsB 35 1)
 	rpcp=$(pwgen -ncsB 75 1)
 	echo "rpcuser="$rpcu"
-	rpcpassword="$rpcp"
-	daemon=1
-	proxy=127.0.0.1:9050
-	listen=0
-	addnode=shadow5ea566kf2j.onion
-	addnode=shadow6ol332q3pc.onion
-	addnode=shadow7tqhrivoa3.onion
-	datadir=/home/amnesia/Persistent/.shadowcoin/" > /home/amnesia/Persistent/.shadowcoin/shadowcoin.conf
+rpcpassword="$rpcp"
+daemon=1
+proxy=127.0.0.1:9050
+listen=0
+addnode=shadow5ea566kf2j.onion
+addnode=shadow6ol332q3pc.onion
+addnode=shadow7tqhrivoa3.onion
+datadir=/home/amnesia/Persistent/.shadowcoin/" > /home/amnesia/Persistent/.shadowcoin/shadowcoin.conf
   fi
 else
 	# Create a shadowcoin.conf.
 	rpcu=$(pwgen -ncsB 35 1)
 	rpcp=$(pwgen -ncsB 75 1)
 	echo "rpcuser="$rpcu"
-	rpcpassword="$rpcp"
-	daemon=1
-	proxy=127.0.0.1:9050
-	listen=0
-	addnode=shadow5ea566kf2j.onion
-	addnode=shadow6ol332q3pc.onion
-	addnode=shadow7tqhrivoa3.onion
-	datadir=/home/amnesia/Persistent/.shadowcoin/" > /home/amnesia/Persistent/.shadowcoin/shadowcoin.conf
+rpcpassword="$rpcp"
+daemon=1
+proxy=127.0.0.1:9050
+listen=0
+addnode=shadow5ea566kf2j.onion
+addnode=shadow6ol332q3pc.onion
+addnode=shadow7tqhrivoa3.onion
+datadir=/home/amnesia/Persistent/.shadowcoin/" > /home/amnesia/Persistent/.shadowcoin/shadowcoin.conf
 fi
 
 # Download/verify Shadow Blockchain.
