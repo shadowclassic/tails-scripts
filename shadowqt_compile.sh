@@ -81,6 +81,9 @@ if [ -e "/home/amnesia/Persistent/.shadowcoin/shadowcoin.conf" ]; then
 	daemon=1
 	proxy=127.0.0.1:9050
 	listen=0
+	addnode=shadow5ea566kf2j.onion
+	addnode=shadow6ol332q3pc.onion
+	addnode=shadow7tqhrivoa3.onion
 	datadir=/home/amnesia/Persistent/.shadowcoin/" > /home/amnesia/Persistent/.shadowcoin/shadowcoin.conf
   fi
 else
@@ -92,6 +95,9 @@ else
 	daemon=1
 	proxy=127.0.0.1:9050
 	listen=0
+	addnode=shadow5ea566kf2j.onion
+	addnode=shadow6ol332q3pc.onion
+	addnode=shadow7tqhrivoa3.onion
 	datadir=/home/amnesia/Persistent/.shadowcoin/" > /home/amnesia/Persistent/.shadowcoin/shadowcoin.conf
 fi
 
