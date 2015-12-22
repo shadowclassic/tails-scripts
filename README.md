@@ -2,10 +2,10 @@
 
 A set of scripts for quickly getting the ShadowCore client up and running on Debian/Tails.
 
-#shadowqt_compile.sh
+##shadowqt_compile.sh
 This script will compile the ShadowCore client from the "master" Shadow branch.
 
-Dependencies:
+**Dependencies**
 * Tails > 1.80 (tested)
 * Persistence Mode
 * Enable Persistence features
@@ -13,7 +13,7 @@ Dependencies:
   *	APT Packages
   * APT Lists
 
-Install:
+**Install**
 ```
 cd /home/amnesia/Persitence/
 git clone https://github.com/shadowproject/tails-scripts
@@ -21,7 +21,7 @@ cd tails-scripts
 sh shadowqt_compile.sh
 ```
 
-Known Issues:
+**Known Issues** 
 
 Due to a bug in Tails Persistence Additional Software app during reboot of Tails the installed dependencies are not reconfigured.
 You can fix this by running the below command on start-up.
