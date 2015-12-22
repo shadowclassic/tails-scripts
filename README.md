@@ -26,5 +26,5 @@ sh shadowqt_compile.sh
 Due to a bug in Tails Persistence Additional Software app during reboot of Tails the installed dependencies are not reconfigured.
 You can fix this by running the below command on start-up.
 
-`sudo apt-get -y install git qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools build-essential libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libssl-dev libdb++-dev libminiupnpc-dev libqt5webkit5-dev qtbase5-dev qtchooser
+`sudo apt-get -y install qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools build-essential libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libssl-dev libdb++-dev libminiupnpc-dev libqt5webkit5-dev qtbase5-dev qtchooser
 `
