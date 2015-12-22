@@ -14,8 +14,17 @@ Dependencies:
   * APT Lists
 
 Install:
+```
+cd /home/amnesia/Persitence/
+git clone https://github.com/shadowproject/tails-scripts
+cd tails-scripts
+sh shadowqt_compile.sh
+```
 
-1. cd /home/amnesia/Persitence/
-2. git clone https://github.com/shadowproject/tails-scripts
-3. cd tails-scripts
-4. sh shadowqt_compile.sh
+Known Issues:
+
+Due to a bug in Tails Persistence Additional Software app during reboot of Tails the installed dependencies are not reconfigured.
+You can fix this by running the below command on start-up.
+
+`sudo apt-get -y install git qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools build-essential libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libssl-dev libdb++-dev libminiupnpc-dev libqt5webkit5-dev qtbase5-dev qtchooser
+`
