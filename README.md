@@ -8,7 +8,7 @@ This script will compile the ShadowCore client from the "master" Shadow branch.
 **Dependencies**
 * Tails > 1.80 (tested)
 * Persistence Mode
-* Enable [Persistence] (https://tails.boum.org/doc/first_steps/persistence/configure/index.en.html#additional_software) features
+* Enable [Persistence] (https://tails.boum.org/doc/first_steps/persistence/configure/index.en.html#index3h1) features
   * Personal Data
   *	APT Packages
   * APT Lists
