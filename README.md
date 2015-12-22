@@ -9,16 +9,13 @@ Dependencies:
 * Tails > 1.80 (tested)
 * Persistence Mode
 * Enable Persistence features
-**   Personal Data
-**   APT Packages
-**   APT Lists
+  * Personal Data
+  *	APT Packages
+  * APT Lists
 
 Install:
 
 1. cd /home/amnesia/Persitence/
-
 2. git clone https://github.com/shadowproject/tails-scripts
-
 3. cd tails-scripts
-
 4. sh shadowqt_compile.sh
